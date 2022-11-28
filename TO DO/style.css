@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #e79ac6;
+}
+
+#box{
+    background-image:white;
+    width: 650px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-left: 350px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+#input-det{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    background-color:#abc8ec;
+    border-radius:15px ;
+
+}
+
+.delete, .edit,.save{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#con1,#con2, #title{
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#con1 ul,#con2 ul,#title{
+    list-style-type: none;
+    padding: 0;
+}
+#input-det button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+#con1 ul li, #con2 ul li ,#title{
+    display: grid;
+    grid-template-columns: 400px 300px 70px 70px 70px 70px;
+    column-gap: 10px;
+    
+}
+#title{
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 20px 10px;
+}
+#con1 li , #con2 li{
+    padding: 20px;
+    border:2px solid black ;
+    
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+
+#con1 li:hover, #con2 li:hover{
+    border-color:indigo;
+}
+
+
+
+.finish{
+    float: right;
+    background: red;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: darkmagenta;
+}
+
+.edit:hover,.save:hover{
+    background-color: darkmagenta;
+}
+
+.finish:hover,#add-btn:hover{
+    background-color: darkmagenta;
+}
+
+.edit,.hover,.finish,.delete,.save{
+    text-align: center;
+}
+
+.name,.dess{
+    text-overflow:clip;
+    word-wrap: break-word;
+}
+.add-title,.add-des{
+    border:2px solid black;
+}
+
+.title1{
+    margin: 30px;
+}
